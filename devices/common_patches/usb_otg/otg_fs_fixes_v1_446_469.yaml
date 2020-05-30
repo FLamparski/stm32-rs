@@ -73,7 +73,8 @@ OTG_FS_GLOBAL:
 
   _modify:
     CID:
-      name: OTG_CID
+      addressOffset: 0x3c
+      description: Core ID register
       resetValue: 0x00002000
 
     GNPTXFSIZ_Device:
